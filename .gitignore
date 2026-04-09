@@ -1,0 +1,5 @@
+build
+*.bkp
+*.dtmp
+.DS_Store
+compile_commands.json
