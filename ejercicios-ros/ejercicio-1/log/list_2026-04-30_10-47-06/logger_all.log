@@ -1,0 +1,50 @@
+[2.154s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1']
+[2.154s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4064955bb0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f4064954da0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f4064954da0>>, mixin_verb=('list',))
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.430s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1'
+[2.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['ignore', 'ignore_ament_install']
+[2.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'ignore'
+[2.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'ignore_ament_install'
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['colcon_pkg']
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'colcon_pkg'
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['colcon_meta']
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'colcon_meta'
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['ros']
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'ros'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['cmake', 'python']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'cmake'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'python'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extensions ['python_setup_py']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1) by extension 'python_setup_py'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/log) by extensions ['ignore', 'ignore_ament_install']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/log) by extension 'ignore'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/log) ignored
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['ignore', 'ignore_ament_install']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'ignore'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'ignore_ament_install'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['colcon_pkg']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'colcon_pkg'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['colcon_meta']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'colcon_meta'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['ros']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'ros'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['cmake', 'python']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'cmake'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'python'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extensions ['python_setup_py']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src) by extension 'python_setup_py'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extensions ['ignore', 'ignore_ament_install']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extension 'ignore'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extension 'ignore_ament_install'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extensions ['colcon_pkg']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extension 'colcon_pkg'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extensions ['colcon_meta']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extension 'colcon_meta'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extensions ['ros']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas) by extension 'ros'
+[2.682s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robofruit/workspace/dario-backup/ejercicios-ros/ejercicio-1/src/comms_basicas' with type 'ros.ament_python' and name 'comms_basicas'
+[2.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
