@@ -113,7 +113,7 @@ Tras el registro, el flujo de trabajo es:
 
 --------------------------------------------------------------------------------
 
-## 6. Ejemplo Práctico: Nodo de Log Profesional (Template)
+## 6. Ejemplo Práctico
 
 Este código sigue los estándares del paquete `br2_basics` mencionado en el ecosistema de Francisco Martín Rico.
 
